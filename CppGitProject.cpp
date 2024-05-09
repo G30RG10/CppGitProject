@@ -3,9 +3,17 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello GitHub!!!\n";
+    cout << "Hello GitHub!!!\n";
+    cout << "Enter num\n";
+    
+    int n = 0;
+    cin >> n;
+    if (n == 5)  cout << "Congratulation!\n";
+    else  cout << "You entered " << n << endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
